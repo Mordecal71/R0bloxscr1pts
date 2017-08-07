@@ -15,7 +15,7 @@ radio.Name = "Radio"
 radio.CanCollide = false
 radio.Anchored = true
 radio.FormFactor = "Custom"
-radio.Size = Vector3.new(3.2, 1.43, 0.8)
+radio.Size = Vector3.new(9.6, 4.29, 2.4)
 radio.CFrame = c.Torso.CFrame * CFrame.new(0,0,.8)
 radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,3.15,0)
 radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,0,-.7)
@@ -76,7 +76,7 @@ stipb.TextColor3 = Color3.new(255,255,255)
 stipb.TextScaled = true
 
 local label = Instance.new("TextLabel",frame)
-label.Text = "Made By ChuckXZ!"
+label.Text = "Edited by Mordecal70"
 label.TextScaled = true
 label:TweenSize(UDim2.new(1,0,.2,0))
 label.TextColor3 = Color3.new(255,255,255)
