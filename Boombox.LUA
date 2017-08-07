@@ -15,7 +15,7 @@ radio.Name = "Radio"
 radio.CanCollide = false
 radio.Anchored = true
 radio.FormFactor = "Custom"
-radio.Size = Vector3.new(9.6, 4.29, 2.4)
+radio.Size = Vector3.new(3.2, 1.43, 0.8)
 radio.CFrame = c.Torso.CFrame * CFrame.new(0,0,.8)
 radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,3.15,0)
 radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,0,-.7)
@@ -23,6 +23,7 @@ radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,0,-.7)
 local mesh = Instance.new("SpecialMesh",radio)
 mesh.MeshId = "http://www.roblox.com/asset/?id=212302951"
 mesh.TextureId = "http://www.roblox.com/asset/?id=746780640"
+mesh.Scale = Vector3.new(4, 4, 4)
 
 local weld = Instance.new("Weld",radio)
 weld.Part0 = c.Torso
