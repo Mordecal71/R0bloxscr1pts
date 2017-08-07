@@ -22,7 +22,7 @@ radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,0,-.7)
 
 local mesh = Instance.new("SpecialMesh",radio)
 mesh.MeshId = "http://www.roblox.com/asset/?id=151760030"
-mesh.TextureId = "https://www.roblox.com/library/746780640/RADIO-TEXTURE"
+mesh.TextureId = "https://www.roblox.com/library/746780641/RADIO-TEXTURE"
 
 local weld = Instance.new("Weld",radio)
 weld.Part0 = c.Torso
