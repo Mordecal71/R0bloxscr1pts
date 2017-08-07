@@ -39,7 +39,7 @@ radio.Anchored = false
 local sound = Instance.new("Sound",radio)
 sound.Name = "Music"
 sound.Looped = true
-sound.Volume = 1
+sound.Volume = 10
 
 local gui = Instance.new("ScreenGui",Player.PlayerGui)
 
