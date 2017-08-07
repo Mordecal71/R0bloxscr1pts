@@ -1,0 +1,18 @@
+local Player = game.Players.LocalPlayer
+local Mouse = Player:GetMouse()
+local Run = 252176177
+local Walk = 180426354
+
+Mouse.KeyDown:connect(function(Key)
+if Key:byte() == 48 then
+Player.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=" ..Run.. ""
+Player.Character.Humanoid.WalkSpeed = 50
+end
+end)
+
+Mouse.KeyUp:connect(function(Key)
+if Key:byte() == 48 then
+Player.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=" ..Walk.. ""
+Player.Character.Humanoid.WalkSpeed = 16
+end
+end)
