@@ -1,5 +1,9 @@
 --stupid thing
 
+--shitty meshes
+
+--nvm it works now
+
 --Script Builder Radio!
 
 local Player = game.Players.LocalPlayer
@@ -45,6 +49,7 @@ frame.BorderColor3 = Color3.new(0,0,0)
 frame.BorderSizePixel = 2
 frame.Size = UDim2.new(0,300,0,200)
 frame.Position = UDim2.new(0,20,.5,-100)
+frame.BackgroundTransparency = 1
 
 local playb = Instance.new("TextButton",frame)
 playb.BackgroundColor3 = Color3.new(0,85/255,0)
@@ -82,6 +87,8 @@ label.TextScaled = true
 label:TweenSize(UDim2.new(1,0,.2,0))
 label.TextColor3 = Color3.new(255,255,255)
 label.BackgroundTransparency = 1
+label.BorderColor3 = Color3.new(125, 125, 255)
+label.BorderSizePixel = 6
 --stipb.Size = UDim2.new(1,0,.2,0)
 
 local Playing = false
