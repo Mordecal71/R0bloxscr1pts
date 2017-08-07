@@ -21,7 +21,7 @@ radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,3.15,0)
 radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,0,-.7)
 
 local mesh = Instance.new("SpecialMesh",radio)
-mesh.MeshId = "http://www.roblox.com/asset/?id=212302951"
+mesh.MeshId = "http://www.roblox.com/asset/?id=151760030"
 mesh.TextureId = "http://www.roblox.com/asset/?id=746780640"
 
 local weld = Instance.new("Weld",radio)
