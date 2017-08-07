@@ -21,8 +21,8 @@ radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,3.15,0)
 radio.CFrame = radio.CFrame * CFrame.fromEulerAnglesXYZ(0,0,-.7)
 
 local mesh = Instance.new("SpecialMesh",radio)
-mesh.MeshId = "https://www.roblox.com/library/212302951/MESH-GoldenBoombox"
-mesh.TextureId = "https://www.roblox.com/library/746780640/RADIO-TEXTURE"
+mesh.MeshId = "http://www.roblox.com/asset/?id=212302951"
+mesh.TextureId = "http://www.roblox.com/asset/?id=746780640"
 
 local weld = Instance.new("Weld",radio)
 weld.Part0 = c.Torso
