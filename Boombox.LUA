@@ -109,9 +109,9 @@ end)
 
 while true do
 	if Playing then
-		mesh.Scale = Vector3.new(1.1,1.1,1.1)
+		mesh.Scale = Vector3.new(4.1,4.1,4.1)
 		wait(.2)
-		mesh.Scale = Vector3.new(1,1,1)
+		mesh.Scale = Vector3.new(4,4,4)
 	end
 	wait(.2)
 end
