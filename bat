@@ -27,6 +27,9 @@ plr = game.Players.LocalPlayer
   Heartbeat.Parent = script
   frame = 0.03333333333333333
   tf = 0
+  local sound = Instance.new("Sound")
+  sound.SoundId = "http://www.roblox.com/asset/?id=230234339"
+  sound.Parent = game.Workspace.chr.Torso
   game:GetService("RunService").Heartbeat:connect(function(s, p)
     tf = tf + s
     if tf >= frame then
