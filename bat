@@ -1,7 +1,6 @@
 local sound = Instance.new("Sound")
-  sound.SoundId = "http://www.roblox.com/asset/?id=230234339"
-  sound.Parent = game.Players.LocalPlayer.Character.Torso
-end
+sound.SoundId = "http://www.roblox.com/asset/?id=230234339"
+sound.Parent = game.Players.LocalPlayer.Character.Torso
 -----Decompiled And Stolen Of Dahnoob, Leaked By Shelter----  
 
 plr = game.Players.LocalPlayer
